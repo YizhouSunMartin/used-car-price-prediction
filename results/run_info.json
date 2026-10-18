@@ -1,0 +1,34 @@
+{
+  "rows": 14995,
+  "train_rows": 11996,
+  "test_rows": 2999,
+  "numeric_features": [
+    "Mileage",
+    "Age",
+    "Horsepower",
+    "Displacement",
+    "Weight",
+    "Gears",
+    "Previous_Owners",
+    "Inspection_New",
+    "Cons_Comb"
+  ],
+  "categorical_features": [
+    "Make_Model",
+    "Body_Type",
+    "Type",
+    "Fuel",
+    "Vat",
+    "Paint_Type",
+    "Upholstery_Type",
+    "Gearing_Type",
+    "Drive_Chain",
+    "Age_Category"
+  ],
+  "excluded_target_derived_features": [
+    "Price_per_km"
+  ],
+  "random_state": 42,
+  "test_size": 0.2,
+  "note": "New reproducible baselines; not a reproduction of the Assignment 2 reported scores."
+}

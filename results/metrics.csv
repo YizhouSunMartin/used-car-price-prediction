@@ -1,0 +1,4 @@
+model,MAE,RMSE,R2
+Ridge (linear baseline),2384.08,5100.6,0.5951
+Random Forest,1825.93,4763.83,0.6468
+Histogram Gradient Boosting,2088.82,4891.46,0.6276
